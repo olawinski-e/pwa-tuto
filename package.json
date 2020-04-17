@@ -1,21 +1,16 @@
 {
-  "name": "pwa-complete-guide",
+  "name": "example-pwa",
   "version": "1.0.0",
-  "description": "A complete guide to PWAs. Building a simple Instagram clone.",
+  "description": "A simple example PWA with an app-manifest and precaching",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -c-1 -p 3000"
+    "start": "http-server -c-1 -p 8081"
   },
   "keywords": [
-    "pwa",
-    "progressive",
-    "web",
-    "app",
-    "complete",
-    "tutorial"
+    "pwa"
   ],
   "author": "Maximilian Schwarzmüller",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "http-server": "^0.10.0"
   }

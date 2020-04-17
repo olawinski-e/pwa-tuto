@@ -1,9 +1,7 @@
-# Progressive Web Apps - Complete Guide
-This source code is part of Maximilian Schwarzmüller's "Progressive Web Apps - Complete Guide" course on udemy.com.
+# A simple example PWA
+This project was built as part of a YouTube video on [https://youtube.com/c/academind](https://youtube.com/c/academind).
 
-# How to Use
-You need [Node.js](https://nodejs.org) installed on your machine. Simply download the installer from [nodejs.org](https://nodejs.org) and go through the installation steps.
+# Usage
+Run `npm install` (you need [Node.js](https://nodejs.org) for that) to install the development server which will serve the `public` folder.
 
-Once Node.js is installed, open your command prompt or terminal and **navigate into this project folder**. There, run `npm install` to install all required dependencies.
-
-Finally, run `npm start` to start the development server and visit [localhost:3000](http://localhost:3000) to see the running application.
+Once that command finished, start the server via `npm start` and view the app at [localhost:8081](http://localhost:8081)
